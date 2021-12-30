@@ -1,7 +1,7 @@
 class ScorePanel {
     score = 0
     level = 1
-    degree: number = 5
+    degree: number = 3
     maxLevel: number = 6
     scoreEle: HTMLElement
     levelEle: HTMLElement

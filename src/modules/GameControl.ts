@@ -23,6 +23,8 @@ class GameControl {
 
     keyDownHandler(event: KeyboardEvent) {
         this.direction = event.key
+
+        // }
         // if (this.isLive) {
         //     this.timer = setTimeout(this.run.bind(this), 550 - this.scorePanel.level * 50)
         // }
@@ -53,8 +55,8 @@ class GameControl {
             case 'Right':
                 X += 10
                 break;
-            // default:
-            //     break;
+            default:
+                break;
         }
         this.checkEat(X, Y)
 
