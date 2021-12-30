@@ -73,7 +73,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HTMLWebpackPlugin({
             title: "这是一个title",
-            // template:"模板的路径"
+            template: "./src/index.html"
         }),
 
     ],
